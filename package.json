@@ -2,9 +2,9 @@
   "name": "simulacijaLifta",
   "version": "1.0.0",
   "description": "",
-  "main": "simulacijaLifta.js",
+  "main": "build/simulacija_lifta.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
     "babel-loader": "^8.2.2",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
   }
 }

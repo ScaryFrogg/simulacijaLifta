@@ -55,7 +55,7 @@ function goToStops(stops, q,floor,visited){
     return goToStops(stops,q,nextFloor,visited)
 }
 
-function calculateStops(stops,capacity){
+export function calculateStops(stops,capacity){
 
     return goToStops(stops, new Queue(capacity),0,[])
 }
