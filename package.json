@@ -1,0 +1,27 @@
+{
+  "name": "simulacijaLifta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simulacijaLifta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScaryFrogg/simulacijaLifta.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScaryFrogg/simulacijaLifta/issues"
+  },
+  "homepage": "https://github.com/ScaryFrogg/simulacijaLifta#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
